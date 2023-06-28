@@ -4,7 +4,7 @@ import LOGO from "../logo.png";
 
 const Container = styled(AppBar)`
   background: #060606;
-  height: 9vh;
+  height: 7vh;
   align-items: center;
 `;
 
