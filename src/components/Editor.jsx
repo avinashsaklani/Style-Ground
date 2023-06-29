@@ -38,7 +38,7 @@ const Editor = ({ heading, icon, color, value, onChange }) => {
     onChange(value);
   };
   return (
-    <Container style={open ? null : { flexGrow: 0 }} overflow="auto">
+    <Container style={open ? null : { flexGrow: 0 }} overflow="hidden">
       <Header>
         <Heading>
           <Box

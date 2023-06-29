@@ -4,7 +4,7 @@ import LOGO from "../logo.png";
 
 const Container = styled(AppBar)`
   background: #060606;
-  height: 7vh;
+  height: 10;
   align-items: center;
 `;
 
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <Container position="static">
       <Toolbar>
-        <img src={LOGO} alt="logo" style={{ width: 60 }} />
+        <img src={LOGO} alt="logo" style={{ width: 250 }} />
       </Toolbar>
     </Container>
   );

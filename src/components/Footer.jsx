@@ -12,7 +12,7 @@ const Footer = () => {
         fontWeight: "bold",
       }}
     >
-      Enjoy Designing! Code by -Avinash
+      Enjoy Designing! Code by -Avinash Saklani
     </div>
   );
 };
